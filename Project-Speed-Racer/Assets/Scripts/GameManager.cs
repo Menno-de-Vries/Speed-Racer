@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine;
 using TMPro;
@@ -62,7 +60,6 @@ public class GameManager : MonoBehaviour
     public void Update()
     {
         laps.text = ("Laps " + TheAmountOfLaps + ":" + maxAmountOflaps);
-
 
         if (TheAmountOfLaps >= lapsToWin)
         {
